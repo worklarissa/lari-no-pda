@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}

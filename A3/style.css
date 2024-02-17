@@ -4,6 +4,13 @@ h1{
 }
 
 .paragrafo-um{
-    width: 50px;
-    text-decoration: underline;
+    display: flex;
+    width: auto;
+}
+
+.box{
+    width:  75%;
+    height: auto;
+    padding: 10px;
+    border: 10px;
 }
