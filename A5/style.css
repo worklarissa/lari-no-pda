@@ -1,0 +1,11 @@
+*{
+    display:flex;
+}
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(66, 36, 94);
+
+}
+
