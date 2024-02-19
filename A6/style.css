@@ -1,0 +1,35 @@
+li{
+    font-size: 50px;
+    list-style: none;
+    justify-content: center;
+    padding: 5%;
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.home:hover{
+    height: 100px;
+    width: 200px;
+    color: brown;
+}
+
+.li::first-letter{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.prod:hover{
+    background-color: aqua;
+}
+
+.ctt:hover{
+    padding: 10%;
+    background-color: blue;
+    font-size: 100px;
+}
