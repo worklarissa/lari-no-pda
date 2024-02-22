@@ -1,5 +1,5 @@
 numeroSecreto  = 56
-chute = parseInt( window.prompt("Digite qual número você acha que é"))
+chute = parseInt( prompt("Digite qual número você acha que é"))
 acertou = false
 
 
