@@ -1,12 +1,11 @@
 function idade(){
-    let aidade = parseInt(prompt("Digite a idade da árvore"))
+    var aidade = parseInt(prompt("Digite a idade da árvore"))
     return aidade 
 
 }
 
- idadeArvore = idade()
 
-function validador(idadeArvore){
+function validador(aidade){
     if (aidade < 10){
         alert("Essa árvore ainda é uma criança")
     }else if(aidade >= 10 && aidade < 50 ){
@@ -16,5 +15,5 @@ function validador(idadeArvore){
     }
 }
 
-idade()
-validador()
+var idadeArvore = idade()
+validador(idadeArvore)
