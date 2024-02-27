@@ -11,5 +11,4 @@ console.log(animais)
 animais.shift()
 console.log(animais)
 
-animais.join(",", String)
-console.log(animais)
+console.log(animais.join(","))
