@@ -10,3 +10,8 @@ console.log(textoSubstituido)
 
 textoCortado = texto.slice(11, 18)
 console.log(textoCortado)
+
+document.write("<h2>" + textoMaiusculo + "</h2>")
+document.write("<h2>" + textoMinusculo + "</h2>")
+document.write("<h2>" + textoSubstituido + "</h2>")
+document.write("<h2>" + textoCortado + "</h2>")
