@@ -2,10 +2,10 @@ let usuario = {};
 
 usuario.nome = prompt("Insira seu nome")
 
-usuario.idade = prompt("Insira sua Idade")
+usuario.idade = parseInt(prompt("Insira sua Idade"))
 
-usuario.disciplinas = prompt("Insida suas disciplinas cursadas, separando-as por virgula")
+usuario.disciplinas = prompt("Insira suas disciplinas cursadas, separando-as por virgula")
 
 //console.log(usuario)
-JSON.stringify(usuario)
-console.log(typeof JSON.stringify(usuario))
+let seriAluno = JSON.stringify(usuario)
+console.log(seriAluno)
