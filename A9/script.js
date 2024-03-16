@@ -9,3 +9,6 @@ usuario.disciplinas = prompt("Insira suas disciplinas cursadas, separando-as por
 //console.log(usuario)
 let seriAluno = JSON.stringify(usuario)
 console.log(seriAluno)
+
+let deseriAluno =  JSON.parse(seriAluno);
+console.log(deseriAluno)
