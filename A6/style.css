@@ -33,3 +33,7 @@ ul{
     background-color: blue;
     font-size: 100px;
 }
+
+img:hover{
+    filter: brightness(50%);
+}
